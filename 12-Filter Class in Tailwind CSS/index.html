@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./output.css">
+    <title> Filter Class in Tailwind CSS </title>
+</head>
+<body>
+    <h1>original img </h1>
+    <img class="h-55 w-65 " src="hello.jpg"  alt="img"/>
+     <!-- <h1>blure pic </h1>
+     <img class="h-55 w-65  blur" src="hello.jpg" alt="img">
+     <img class="h-55 w-65  blur-sm" src="hello.jpg" alt="img">
+     <img class="h-55 w-65  blur-xs" src="hello.jpg" alt="img">
+     <img class="h-55 w-65  blur-lg" src="hello.jpg" alt="img">
+     <img class="h-55 w-65  blur-xl" src="hello.jpg" alt="img"> -->
+
+     <!-- <h1>brightness: </h1>
+
+    Image की overall lightness (रोशनी) बढ़ाता या घटाता है।
+
+        <img class="h-55 w-65 brightness-50 " src="hello.jpg" alt="img">
+        <img class="h-55 w-65 brightness-100 " src="hello.jpg" alt="img">
+        <img class="h-55 w-65 brightness-200 " src="hello.jpg" alt="img">
+        <img class="h-55 w-65 brightness-250 " src="hello.jpg" alt="img"> -->
+
+        <!-- <h1>contrast:</h1> 
+
+Contrast(150%)
+Image की details और colors ज्यादा sharp और strong दिखेंगे।
+
+
+    <img class="h-55 w-65 contrast-0" src="hello.jpg" alt="img">
+    <img class="h-55 w-65 contrast-50" src="hello.jpg" alt="img">
+    <img class="h-55 w-65 contrast-100" src="hello.jpg" alt="img">
+    <img class="h-55 w-65 contrast-150" src="hello.jpg" alt="img"> -->
+ 
+    <!-- <h1>GrayScale</h1> -->
+<!-- grayscale() in CSS 🖤🤍
+grayscale() image के colors को हटाकर उसे black & white (gray shades) में बदल देता है। -->
+
+  <!-- <img class="h-55 w-65 grayscale-0 " src="hello.jpg" alt="img">
+  <img class="h-55 w-65 grayscale-25 " src="hello.jpg" alt="img">
+  <img class="h-55 w-65 grayscale-50 " src="hello.jpg" alt="img">
+  <img class="h-55 w-65 grayscale-100 " src="hello.jpg" alt="img"> -->
+
+  <!-- <h1>invert:</h1> -->
+<!-- invert() image या element के colors को उल्टा (negative effect) कर देता है। -->
+
+<!-- <img class="h-55 w-65 invert-25 " src="hello.jpg" alt="img">
+<img class="h-55 w-65 invert-100 " src="hello.jpg" alt="img"> -->
+
+<h1>Hue:</h1>
+<!-- hue-rotate() image या element के colors (hue) को rotate करता है। इससे image 
+का रंग बदल जाता है, लेकिन brightness और contrast लगभग वही रहते हैं। -->
+
+<img class="h-55 w-65 hue-rotate-15 " src="hello.jpg" alt="img"> 
+<img class="h-55 w-65 hue-rotate-30 " src="hello.jpg" alt="img"> 
+<img class="h-55 w-65 hue-rotate-45 " src="hello.jpg" alt="img"> 
+
+
+</body>
+</html> 
+
+<!--  npx @tailwindcss/cli -i input.css -o output.css --watch  -->
