@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="./output.css"/>
+    <title>Interactivity with Tailwind CSS</title>
+</head>
+<body>  
+    <h1 class="bg-amber-400"> hello sir </h1>
+    <button class="bg-blue-400 m-4 p-4 rounded-md hover:bg-blue-600 text-white block ">
+         Click hover-btn
+        </button>
+    <button class="bg-blue-400 m-4 p-4 rounded-2xl text-white focus:bg-amber-400 block "> Click focus-btn</button>
+
+    <button class="bg-blue-400 m-4 p-4 rounded-2xl text-white active:bg-red-500 block "> Click active-btn</button>
+
+    <button class="bg-blue-400 m-4 p-4 rounded-2xl text-white block "> Click simple-btn</button>
+ <!-- <div>
+    <a href="#" class="hover:text-blue-500 bg-amber-200">register </a>
+ </div> -->
+
+<!-- <div>
+    <a href="#" ">
+    <h2 class="hover:text-blue-500 ">Lorem ipsum, dolor sit amet consectetur adipisicing.</h2>  
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae 
+        esse sint assumenda laudantium quibusdam?</p>  
+    </a>
+</div> -->
+
+<div>
+    <a href="#" class="group">
+    <h2 class="  group-hover:text-blue-500 ">Lorem ipsum, dolor sit amet consectetur adipisicing.</h2>  
+    <p class="group-hover:text-green-600" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae 
+        esse sint assumenda laudantium quibusdam?</p>  
+    </a>
+</div>
+</body>
+</html>
+
+<!-- npx @tailwindcss/cli -i input.css -o output.css --watch -->
