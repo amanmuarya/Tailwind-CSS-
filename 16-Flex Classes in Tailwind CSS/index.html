@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link href="./output.css" rel="stylesheet">
+    <title>Flex Classes in Tailwind CSS</title>
+</head>
+<body class=" h-screen"> 
+<!-- first write flex and than use , flex-col ,flex-col-reverse, flex-row , flex-row-revers
+ next here -- ,justify-center , flex-start, flex-col items-center, justify-evenly
+
+ size-full  , justify-around , justify-between
+-->
+
+    <div class=" size-full flex items-center justify-around flex-wrap  gap-5">
+        <div class="bg-red-300 size-40">1</div>
+        <div class="bg-orange-400 size-40">2</div>
+        <div class="bg-red-500 size-40">3</div>
+        <div class="bg-orange-500 size-40">4</div>
+        <div class="bg-red-300 size-40">1</div>
+        <div class="bg-orange-400 size-40">2</div>
+        <div class="bg-red-500 size-40">3</div>
+        <div class="bg-orange-500 size-40">4</div>
+    </div>
+</body>
+</html>
+
+<!-- npx @tailwindcss/cli -i input.css -o output.css --watch -->
